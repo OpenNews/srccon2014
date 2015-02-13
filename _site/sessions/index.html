@@ -2,8 +2,10 @@
 
 <html class="no-js">
   <head>
+    <meta http-equiv="refresh" content="0; url=http://schedule.srccon.org">
+<link rel="canonical" href="http://konradpodgorski.com/blog/2013/10/21/how-i-migrated
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Pitch Your Session | SRCCON: a conference for the news-code community</title>
+    <title>SRCCON Sessions | SRCCON: July 24–25, Philadelphia</title>
      <meta name="Description" content="SRCCON, July 24 & 25 2014 in Philly, is a conference for the news-code community.">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
@@ -12,115 +14,238 @@
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen,projection,tv" href="/media/css/normalise.css" />
     <link rel="stylesheet" media="screen,projection,tv" href="/media/css/devices.css" />
-    <link rel="stylesheet" href="/media/css/snap.css" />
     <link rel="stylesheet" media="all and (min-width:30em)" href="/media/css/desktop.css" />
-    <!-- <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" /> -->
     <!-- endstylesheets -->
     <!-- script calls -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="//www.google.com/jsapi"></script>
-    <!--<script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>-->
-    <!--[if lt IE 9]>
-        <script type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <link rel="stylesheet" media="screen" href="media/css/desktop.css" />
-    <![endif]-->
     <!-- end scripts -->
+    <!-- GA -->
+    <!-- Begin Google Analytics -->
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-51039715-1', 'srccon.org');
+  ga('send', 'pageview');
+</script>
+
+
+<!-- End Google Analytics -->
+    <!-- end GA -->
 </head>
 <body class=" ">
- <div class="snap-drawers">
-     <div class="snap-drawer snap-drawer-left">
-         <ul>
-<li id="sessions"><a href="/sessions">pitch a session</a></li>
-<li id="conduct"><a href="/conduct">code of conduct</a></li>
-</ul>
-
-     </div>
- </div>
-<div id="snap-content-wrapper" class="snap-content overthrow">
-<script type="text/javascript">
+    <script type="text/javascript">
         document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, '');
     </script>
-    <header class="masthead">
+    <header class="masthead session">
         <div class="busta">
-            <!--<a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>-->
-            <div class="toggle-navigation hamburger">menu</div>
-            <h1 id="brand">
-                <a href="/"><img class="logo" alt="SRCCON" src="/media/img/srccon_logo.png" width="470" height="140" /></a>
-            </h1>
             <div id="nav">
                  <ul>
-<li id="sessions"><a href="/sessions">pitch a session</a></li>
-<li id="conduct"><a href="/conduct">code of conduct</a></li>
+<li id="schedule"><a href="http://schedule.srccon.org">schedule</a></li>
+<li id="logistics"><a href="/logistics">logistics</a></li>
 </ul>
 
             </div>
+            <h1 id="brand">
+                <a href="/"><img class="logo" alt="SRCCON" src="/media/img/srcconwhite.png" width="470" height="140" /></a>
+            </h1>
         </div>
+        <p id="byline"></p>
     </header>
-     <div id="newsline">
-     </div>
+
+    <div id="newsline"></div>
+
     <div role="main" class="home" id="home">
-
-
         <div class="busta">
-
-        <article>
-            <div class="main_col">
-            <h2>Pitch Your Session</h2>
+            <article>
+                <div class="main_col">
+                    <h2>SRCCON Sessions</h2>
 <div class="article_body">
-<p>The SRCCON program will be built around facilitated sessions in which participants hold conversations and workshops about code, data, security, interactive design, and other topics of interest to people who code in news organizations.</p>
+<p class="bodybig">Pitched by the community, sessions are the lifeblood of SRCCON. We will publish the final schedule on 7/17.  The list of accepted sessions is below. For more details about SRCCON and a sketch of the schedule, check out the <a href="/logistics">logistics</a> page.</p>
 
-<p>Sessions will be set up to maximize small-group collaboration, with an eye toward continuing work and conversations through SRCCON and after. [We expect themes will develop across sessions and are eager to support connections between groups, so please let us know if there&#39;s someone who should be involved in SRCCON who we may not already know.]</p>
+<div id="togglebuttons">
+    <div id="show">open all</div>
+    <div id="hide">close all</div>
+</div>
 
-<p>Similar/alt approach to the inclusion question, to go somewhere on this or another page: We also have a community-wide request: if you know someone who loves to code and is interested in journalism and related work and you think they might enjoy SRCCON, please take a moment to send them to our site or <a href="email%20link">make an introduction</a>, especially if you think they might not hear about it otherwise. [SOMETHING SOMETHING SOMETHING]</p>
+<div id="proposals">
+    <!-- Paste the markdowned tables here -->
+</div>
+
+<script type="text/javascript" src="/media/js/tabletop.js"></script>
+
+<script type="text/javascript">
+
+if (window.location.href.indexOf('http://www.srccon.org/schedule') === 0) {
+  window.location.href = 'http://schedule.srccon.org';
+}
+
+
+// spinner
+$('<div id="preload"></div>').html('<h3><img src="/media/img/ajax-loader.gif" alt="loading data" /> Processing Sessions</h3>').prependTo($('#proposals'));
+
+window.onload = function() { init() };
+
+function init() {
+    // use tabletop.js to get latest submissions
+    var public_spreadshseet_url = 'https://docs.google.com/spreadsheets/d/1_YQAy2uBtsLLXrLqW5uIrmoUy5mtnFWqDmxl64m9AXE/pubhtml',
+        tabletop = Tabletop.init({
+            key: public_spreadshseet_url,
+            callback: showInfo
+        });
+
+    function showInfo() {
+        var hack_li,
+            suffix,
+            twitterLinks;
+
+        // remove spinner
+        $('#preload').hide();
+
+        // create list items from each record from spreadsheet
+        $.each(tabletop.sheets("Sheet1").all(), function(i, proposal) {
+            twitterLinks = formatTwitterLinks(proposal.twitterhandles);
+
+            hack_li = '<li>';
+            // session title
+            hack_li += '<h4 class="title subjectline" id="p'+ proposal.id +'"><img src="/media/img/triangle.png">' + formatPrettyText(proposal.sessiontitle) + '<span class="proposalauthor"> | ' + proposal.responseidentifier + '</span></h4>';
+            // session details
+            hack_li += '<div class="detailbox">';
+            // session description
+            hack_li += '<p class="description">' + formatMultiline(formatPrettyText(proposal.shortdescription)) + '</p>';
+            // session who this is for
+            hack_li += '<p><b>Who is this session for?</b> ' + formatPrettyText(proposal.whoisthissessionfor) + '</p>';
+            // session leader twitter links
+            hack_li += '<p>';
+            if (twitterLinks.length) {
+                suffix = (twitterLinks.length > 1) ? 's' : '';
+                hack_li += '<b>Session leader'+suffix+' on Twitter:</b> ' + twitterLinks.join(', ') + ' | ';
+            }
+            // session permalink
+            hack_li += '<span class="permalink"><a href="#p'+ proposal.id +'">permalink for this proposal</a></span></p>';
+            hack_li += '</div></li>';
+
+            $(hack_li).appendTo("#proposals");
+        });
+
+        // if page loaded from permalink, automatically expand
+        // record's details and scroll down the page to it
+        if (window.location.hash) {
+            var hash = window.location.hash.substring(1),
+                $target = $('#'+hash);
+
+            $('html, body').animate({
+              scrollTop: $($target).offset().top-100
+            }, 200);
+
+            $target.next().show();
+            $target.find('img').toggleClass('flipup');
+        }
+
+        // let people open/close all records at once
+        $('#togglebuttons').show();
+    }
+}
+
+// utilities for formatting proposal text
+var newlines = new RegExp('\\n', 'g');
+var formatMultiline = function(str) {
+    return str.replace(newlines,'<br>');
+}
+var formatPrettyText = function(str) {
+    return str
+        /* opening singles */
+        .replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")
+        /* closing singles & apostrophes */
+        .replace(/'/g, "\u2019")
+        /* opening doubles */
+        .replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c")
+        /* closing doubles */
+        .replace(/"/g, "\u201d")
+        /* em-dashes */
+        .replace(/--/g, "\u2014");
+}
+var formatTwitterLinks = function(handles) {
+    var twitterLinks = [];
+
+    if (handles) {
+        var handleList = handles.split(','),
+            cleanHandle;
+
+        $.each(handleList, function(i, handle) {
+            cleanHandle = $.trim(handle).replace('@','');
+            twitterLinks.push('<a href="https://twitter.com/'+cleanHandle+'">@'+cleanHandle+'</a>');
+        })
+    }
+
+    return twitterLinks;
+}
+
+// add click listeners for elements that may not exist yet
+$('.article_body').on('click', '.subjectline', function() {
+    var d = $(this).next();
+    d.slideToggle('fast');
+    $("img", this).toggleClass('flipup');
+});
+$('.article_body').on('click', '#show', function() {
+    $('.detailbox').slideDown('fast');
+    $('#show').hide();
+    $('#hide').show();
+    $('.subjectline img').addClass('flipup');
+});
+$('.article_body').on('click', '#hide', function() {
+    $('.detailbox').slideUp('fast');
+    $('#show').show();
+    $('#hide').hide();
+    $('.subjectline img').removeClass('flipup');
+});
+</script>
 
 </div>
-          </div>
-        </article>
+
+                </div>
+            </article>
         </div>
     </div>
     <aside>
         <section class="partners">
-           <div class="busta">
-            <h2>Our partners</h2>
-            <ul>
-                <li><a href="http://www.mozilla.org/"><img altMozilla" src="/media/img/partners/mozilla.png" width="200" /></a></li>
-                <li><a href="http://www.knightfoundation.org/"><img alt="Knight Foundation" src="/media/img/partners/knight.png" height="50" width="300" /></a></li>
+             <div class="busta">
+            <h2>SRCCON is <a href="/sponsors">sponsored by</a></h2>
+            <ul class="sponsorlist">
+              <li><a href="http://mandrill.com/"><img alt ="Mandrill by Mailchimp" src="/media/img/partners/mandrill_150.png"></a></li>
+              <li><a href="http://www.wordpress.org"><img alt="Scholarship Sponsor, WordPress" src="/media/img/partners/wordpress_150.png"></a><br><span class="spnsr">scholarship sponsor</span></li>
+                <li><div id="partnersponsor"><a href="http://www.mozilla.org/"><img alt="Mozilla" src="/media/img/partners/mozilla.png" height="45" /></a>
+                <br><span class="spnsr"><a href="http://www.knightfoundation.org/"><img alt="Knight Foundation" src="/media/img/partners/knight.png" height="50" /></a><span></div></li>
+
                 </ul>
             </div>
         </section>
         <section class="external">
             <div class="busta">
-            <div class="col box opennews">
-                <h2>Connect with OpenNews</h2>
+            <div class="col box">
+                <h2>More SRCCON</h2>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 <ul>
-                <li>Get the latest by <a href="http://planet.mozillaopennews.org/rss20.xml">subscribing to our news feed</a></li>
-                <li>Connect on Twitter <a href="http://twitter.com/opennews" class="twitter-follow-button" data-show-count="false">@opennews</a></li>
+                <li><a href="/conduct">Code of conduct</a>
+                <li><a href="/sponsors">Our sponsors</a>
+                <li><a href="http://twitter.com/srccon" class="twitter-follow-button" data-show-count="false">@srccon</a></li>
 
-                <li>Check our our <a href="https://wiki.mozilla.org/OpenNews">Wiki</a></li>
-               <li>Join our <a href="https://lists.mozilla.org/listinfo/community-mojo">mailing list</a></li>
-                <li><a href="mailto:opennews@mozillafoundation.org">Contact us</a></li>
+               <li>Join our <a href="https://source.opennews.org/en-US/subscribe/">mailing list</a></li>
+                <li><a href="mailto:source@mozillafoundation.org">Contact us</a></li>
                 </ul>
             </div>
-            <div class="col box knight">
-                <h2>About Knight</h2>
- <p>Knight Foundation supports transformational ideas that promote quality
-journalism, advance media innovation, engage communities and foster the
-arts. The foundation believes that democracy thrives when people and communities are
-informed and engaged.
-<p>For more, visit <a href="http://www.knightfoundation.org" target="_blank">knightfoundation.org</a> </p>            </div>
-            <div class="col box mozilla">
-                <h2>About Mozilla</h2>
-                <p>Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good&mdash;by creating great software and fostering communities that build and grow the open web.
-<p><a href="https://sendto.mozilla.org/page/s/sign-up-for-mozilla">Sign up to hear more</a>, and, if you're willing, please<a href="https://sendto.mozilla.org/page/contribute/join-mozilla"> join Mozilla.</a>
+            <div class="col box">
+                <h2>About SRCCON</h2>
+ <p>SRCCON is a conference for developers, interactive designers, and other people who love to code in and near newsrooms. Join us in Philadelphia July 24 and 25 for two full days of peer-to-peer sessions built around conversation and collaboration.</p>            </div>
+            <div class="col box">
+                <h2>About OpenNews</h2>
+                <p>A multi-year partnership between <a href="http://www.mozilla.org">Mozilla</a> and the <a href="http://www.knightfoundation.org/">Knight Foundation</a>, <a href="http://www.opennews.org">Knight-Mozilla OpenNews</a> is dedicated to creating an ecosystem to help strengthen and build community around journalism on the web. More at <a href="http://www.opennews.org">opennews.org</a>.
+</a>
             </div>
             </div>
 
         </section>
     </aside>
-</div>
-    <script type="text/javascript" src="/media/js/overthrow.js"></script>
-    <script type="text/javascript" src="/media/js/snap.js"></script>
-    <script type="text/javascript" src="/media/js/app.js"></script>
 </body>
 </html>
