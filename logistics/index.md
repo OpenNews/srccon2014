@@ -9,7 +9,7 @@ byline: Photo by <a href="https://secure.flickr.com/photos/radio_free_rlyeh/5744
 
 ###Schedule
 
-Visit our schedule at [schedule.srccon.org.](http://schedule.srccon.org)
+Visit our schedule at [schedule.srccon.org.](/schedule)
 
 ###**Venue & Lodging**
 SRCCON will take place at the [Chemical Heritage Foundation](http://www.chemheritage.org/), a museum and event space in the Old City neighborhood of Philadelphia.
