@@ -1,4 +1,4 @@
-srccon 2014
-======
+SRCCON 2014
+===========
 
-this is the archive for 2014's SRCCON site. it is no longer maintained.
+This is the archived repository for the SRCCON 2014 website, for reference only. Updates here will not be reflected on the [publicly accessible archived website](https://2014.srccon.org), which is served from S3.
